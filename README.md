@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# valentine
+# valentine <a href="https://valentine.tada.science"><img src="man/figures/logo.png" align="right" height="138" /></a>
 
 <!-- badges: start -->
 
@@ -30,6 +30,11 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(valentine)
+#> 
+#> Attaching package: 'valentine'
+#> The following object is masked from 'package:utils':
+#> 
+#>     prompt
 ## basic example code
 ```
 
