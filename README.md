@@ -10,54 +10,30 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 [![CRAN
 status](https://www.r-pkg.org/badges/version/valentine)](https://CRAN.R-project.org/package=valentine)
 [![R-CMD-check](https://github.com/tadascience/valentine/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/tadascience/valentine/actions/workflows/R-CMD-check.yaml)
-[![Codecov test
-coverage](https://codecov.io/gh/tadascience/valentine/branch/master/graph/badge.svg)](https://app.codecov.io/gh/tadascience/valentine?branch=master)
 <!-- badges: end -->
 
-The goal of valentine is to …
+The goal of valentine is to spread the love about your favourite R
+package.
 
 ## Installation
 
 You can install the development version of valentine like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+pak::pak("tadascience/valentine")
 ```
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
-
 ``` r
-library(valentine)
-#> 
-#> Attaching package: 'valentine'
-#> The following object is masked from 'package:utils':
-#> 
-#>     prompt
-## basic example code
+valentine::roses("dplyr")
+#> Roses are red 🌹
+#> dplyr is fierce and fast 💪
+#> Filtering, sorting, and group by 🧩
+#> Data wrangling made a blast! 💥
+valentine::roses("lubridate", hint = "make it kinky")
+#> Roses are red 🌹
+#> Lubridate's syntax yearns to be fed 🗓️
+#> With time manipulation, it'll make you swoon 😍
+#> Get kinky with dates, all through the moon 🌙
 ```
-
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
-
-``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
-```
-
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date. `devtools::build_readme()` is handy for this.
-
-You can also embed plots, for example:
-
-<img src="man/figures/README-pressure-1.png" width="100%" />
-
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub and CRAN.
