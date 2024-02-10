@@ -3,7 +3,7 @@ Title: Spread the love for R packages with poetry
 Version: 2014.2.14
 Authors@R: 
     person("Romain", "François", email = "romain@tada.science", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Description: Spread the love for R packages with poetry.
 License: MIT + file LICENSE
 Suggests: 
     testthat (>= 3.0.0)
