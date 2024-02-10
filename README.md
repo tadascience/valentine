@@ -27,13 +27,13 @@ pak::pak("tadascience/valentine")
 
 ``` r
 valentine::roses("dplyr")
-#> Roses are red 🌹
-#> dplyr is fierce and fast 💪
-#> Filtering, sorting, and group by 🧩
-#> Data wrangling made a blast! 💥
+#> 🌹 Roses are red, 📦
+#> 💡 dplyr's the R package that'll make your 💻 shine 🌟,
+#> 🔥 With its powerful data manipulation capabilities, 📊
+#> 😍 You'll love using it all the time! ❤️
 valentine::roses("lubridate", hint = "make it kinky")
-#> Roses are red 🌹
-#> Lubridate's syntax yearns to be fed 🗓️
-#> With time manipulation, it'll make you swoon 😍
-#> Get kinky with dates, all through the moon 🌙
+#> Roses are red, 🌹
+#> lubridate's API, so sexy, 🍓
+#> Dates it manipulates, so flexible, 📅
+#> It's time to get kinky, ooh-la-la! 😏
 ```
