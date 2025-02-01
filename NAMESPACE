@@ -3,4 +3,3 @@
 export(prompt)
 export(roses)
 importFrom(glue,glue)
-importFrom(openai,create_chat_completion)
