@@ -5,8 +5,6 @@
 
 <!-- badges: start -->
 
-[![Lifecycle:
-experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/valentine)](https://CRAN.R-project.org/package=valentine)
 [![R-CMD-check](https://github.com/tadascience/valentine/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/tadascience/valentine/actions/workflows/R-CMD-check.yaml)
@@ -40,24 +38,24 @@ documentation for information on setting up api keys, etc …
 
 ``` r
 valentine::roses("dplyr")
-#> Roses are red, violets are blue 🌹
-#> But dplyr is the package that makes my data dreams come true 📊
-#> With tidyverse magic, it's a joy to explore 💫
-#> My love for dplyr runs deep, that's for sure! 💖
+#> Roses are red,  
+#> dplyr is my bae 🌹  
+#> With pipes and verbs,  
+#> My data never goes astray 💖
 ```
 
 ``` r
 valentine::roses("lubridate", hint = "make it kinky")
-#> Roses are red
-#> Lubridate's my love, so pretty in red 🌹
-#> With its functions so sleek, my data's never misled 💻
-#> Date manipulation has never felt better in bed 😉
+#> Roses are red, violets are blue, 
+#> But lubridate, oh how I adore you 💕
+#> You make my dates smooth and my times hot 🔥
+#> In R programming, you're all I've got 😈🌹
 ```
 
 ``` r
 valentine::roses("valentine")
-#> Roses are red, 🌹
-#> Valentine is sweet, 💖
-#> With packages like you, 📦
-#> My coding heart skips a beat! ❤️
+#> Roses are red, 
+#> Valentine is too 🌹
+#> With its data magic, 
+#> My love for it grew 💖
 ```
