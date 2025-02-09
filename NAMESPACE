@@ -2,4 +2,5 @@
 
 export(prompt)
 export(roses)
+importFrom(ellmer,chat_openai)
 importFrom(glue,glue)

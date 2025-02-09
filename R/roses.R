@@ -20,8 +20,10 @@
 #'   # to be set. Visit https://openai.com/api/
 #'   roses("dplyr")
 #' }
+#'
+#' @importFrom ellmer chat_openai
 #' @export
-roses <- function(pkg, hint = "", emoji = TRUE, chat = ellmer::chat_openai(model = "gpt-3.5-turbo")) {
+roses <- function(pkg, hint = "", emoji = TRUE, chat = chat_openai(model = "gpt-3.5-turbo")) {
   prompt <- prompt(pkg, hint = hint, emoji = emoji)
   chat$chat(prompt, echo = "text")
 }

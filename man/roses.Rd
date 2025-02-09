@@ -9,7 +9,7 @@ roses(
   pkg,
   hint = "",
   emoji = TRUE,
-  chat = ellmer::chat_openai(model = "gpt-3.5-turbo")
+  chat = chat_openai(model = "gpt-3.5-turbo")
 )
 
 prompt(pkg, hint = "", emoji = TRUE)
@@ -39,4 +39,5 @@ prompt("dplyr")
   # to be set. Visit https://openai.com/api/
   roses("dplyr")
 }
+
 }
