@@ -29,8 +29,7 @@ pak::pak("tadascience/valentine")
 `valentine::roses()` uses a
 [Chat](https://ellmer.tidyverse.org/reference/Chat.html) object to
 communicate with the LLM of your choice. The default value for the
-`chat` argument uses the “gpt-3.5-turbo” model from
-[OpenAI](https://openai.com/) via the
+`chat` argument uses the “gpt-3.5-turbo” model from OpenAI via the
 [ellmer::chat_openai()](https://ellmer.tidyverse.org/reference/chat_openai.html)
 which is usually good enough for such a simple task.
 
@@ -41,24 +40,24 @@ documentation for information on setting up api keys, etc …
 
 ``` r
 valentine::roses("dplyr")
-#> Roses are red,  
-#> Dplyr is true,  
-#> With pipes and verbs,  
-#> Data wrangling made new! 🌹💻 #rstats
+#> Roses are red 🌹
+#> Dplyr is blue 📘
+#> You make my data wrangling dreams come true 💭
+#> Thanks for all that you do! 🙏🏽
 ```
 
 ``` r
 valentine::roses("lubridate", hint = "make it kinky")
-#> Roses are red, 🌹
-#> Lubridate is sweet, 😏
-#> With every date function, my love for it can't be beat, 😍
-#> In R programming, it's the perfect treat! 🤓 #sorrynotsorry
+#> Roses are red, violets are blue 🌹
+#> But lubridate, oh how I love you 💕
+#> You handle time like no other can ⏰
+#> With you, my R code's always so grand 😈
 ```
 
 ``` r
 valentine::roses("valentine")
-#> Roses are red 🌹
-#> Valentine is neat 📦
-#> Bringing me joy 💖
-#> With every code I complete 💻
+#> Roses are red, 
+#> Valentine is true 💕
+#> With R package love,
+#> I'll always be with you 🌹💖
 ```

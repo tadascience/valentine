@@ -37,8 +37,7 @@ pak::pak("tadascience/valentine")
 
 `valentine::roses()` uses a [Chat](https://ellmer.tidyverse.org/reference/Chat.html)
 object to communicate with the LLM of your choice. The default 
-value for the `chat` argument uses the "gpt-3.5-turbo" model
-from [OpenAI](https://openai.com/) via the 
+value for the `chat` argument uses the "gpt-3.5-turbo" model from OpenAI via the 
 [ellmer::chat_openai()](https://ellmer.tidyverse.org/reference/chat_openai.html)
 which is usually good enough for such a simple task. 
 
