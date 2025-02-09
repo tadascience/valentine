@@ -9,7 +9,8 @@ roses(
   pkg,
   hint = "",
   emoji = TRUE,
-  chat = chat_openai(model = "gpt-3.5-turbo")
+  chat = chat_openai(model = "gpt-3.5-turbo"),
+  error_call = current_env()
 )
 
 prompt(pkg, hint = "", emoji = TRUE)
@@ -21,8 +22,13 @@ prompt(pkg, hint = "", emoji = TRUE)
 
 \item{emoji}{Should the poem include emojis ?}
 
-\item{chat}{A Chat object, e.g. \code{\link[ellmer:chat_openai]{ellmer::chat_openai()}}. The default uses
+\item{chat}{A \link[ellmer:Chat]{ellmer::Chat} object, e.g. \code{\link[ellmer:chat_openai]{ellmer::chat_openai()}}. The default uses
 the 'gpt-3.5-turbo' model from OpenAI.}
+
+\item{error_call}{The execution environment of a currently
+running function, e.g. \code{caller_env()}. The function will be
+mentioned in error messages as the source of the error. See the
+\code{call} argument of \code{\link[rlang:abort]{abort()}} for more information.}
 }
 \value{
 A lovely poem for your package crush

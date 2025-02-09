@@ -2,5 +2,7 @@
 
 export(prompt)
 export(roses)
+importFrom(cli,cli_abort)
 importFrom(ellmer,chat_openai)
 importFrom(glue,glue)
+importFrom(rlang,current_env)
