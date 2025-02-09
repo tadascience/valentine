@@ -40,24 +40,24 @@ documentation for information on setting up api keys, etc …
 
 ``` r
 valentine::roses("dplyr")
-#> Roses are red 🌹
-#> Dplyr is blue 📘
-#> You make my data wrangling dreams come true 💭
-#> Thanks for all that you do! 🙏🏽
+#> Roses are red, violets are blue 🌹
+#> But dplyr is the package that makes my data dreams come true 📊
+#> With tidyverse magic, it's a joy to explore 💫
+#> My love for dplyr runs deep, that's for sure! 💖
 ```
 
 ``` r
 valentine::roses("lubridate", hint = "make it kinky")
-#> Roses are red, violets are blue 🌹
-#> But lubridate, oh how I love you 💕
-#> You handle time like no other can ⏰
-#> With you, my R code's always so grand 😈
+#> Roses are red
+#> Lubridate's my love, so pretty in red 🌹
+#> With its functions so sleek, my data's never misled 💻
+#> Date manipulation has never felt better in bed 😉
 ```
 
 ``` r
 valentine::roses("valentine")
-#> Roses are red, 
-#> Valentine is true 💕
-#> With R package love,
-#> I'll always be with you 🌹💖
+#> Roses are red, 🌹
+#> Valentine is sweet, 💖
+#> With packages like you, 📦
+#> My coding heart skips a beat! ❤️
 ```
