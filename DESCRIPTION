@@ -1,6 +1,6 @@
 Package: valentine
 Title: Spread the Love for R Packages with Poetry
-Version: 2025.2.14
+Version: 2025.2.14.9000
 Authors@R: 
     person("Romain", "François", email = "romain@tada.science", role = c("aut", "cre"))
 Description: Uses large language models to create poems about R packages.
